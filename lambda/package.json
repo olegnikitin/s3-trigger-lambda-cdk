@@ -1,0 +1,20 @@
+{
+  "name": "csv-processor-lambda",
+  "version": "1.0.0",
+  "description": "Lambda function to process CSV files from S3 and store in DynamoDB",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.515.0",
+    "@aws-sdk/client-dynamodb": "^3.515.0",
+    "@aws-sdk/lib-dynamodb": "^3.515.0"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.134",
+    "@types/node": "^20.11.16",
+    "typescript": "^5.3.3"
+  }
+}
